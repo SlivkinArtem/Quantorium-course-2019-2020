@@ -3,7 +3,7 @@ from pprint import pprint
 from selenium import webdriver
 
 
-LINK = 'https://docs.google.com/forms/d/e/1FAIpQLSf7-CViq3qgGm1h56GT9RzNnrAwiCcC5ymX76inPLTG2vgrjA/viewform'
+LINK = 'должна быть ссылка'
 settings = webdriver.ChromeOptions()
 settings.add_argument('--start-maximized')
 settings.add_argument('--incognito')
